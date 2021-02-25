@@ -1,0 +1,80 @@
+*.py[co]
+
+# Packages
+*.egg
+*.egg-info
+dist
+*build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+pip-wheel-metadata/
+__pycache__/
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage*
+.tox
+.travis*requirements*
+
+#Translations
+*.mo
+
+#Mr Developer
+.mr.developer.cfg
+
+#Virtualenv
+env/
+venv/
+.venv/
+
+#Editor temporaries
+*~
+
+*.swp
+*.save
+*.db
+*cache/
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+.eggs/README.txt
+
+# Mac
+.DS_Store
+
+# Linux
+.directory
+
+# Pycharm files
+.idea/
+
+# VScode
+.vscode/
+
+# pre-commit config
+.pre-commit-config.yaml
+
+### Emacs template
+# -*- mode: gitignore; -*-
+# *~
+**/*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
